@@ -27,3 +27,17 @@ This section is added after the first working deployment. I'll save this, render
 plot(mtcars$wt, mtcars$mpg)
 ```
 
+## Another addition
+
+So the previous added section didn't break anything, which was a pleasant surprise. This means that adding content to our Quarto file then rendering the new output, adding and then pushing to remote shouldn't break anything. 
+
+Final add. If it breaks deployment, next update will be hopefully restoring a working deployment.
+
+```{r}
+mpg_mod <- lm(mpg ~ wt, data = mtcars)
+
+par(mfrow = c(2, 2))
+plot(mpg_mod)
+par(mfrow = c(1,1))
+```
+

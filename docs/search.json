@@ -26,5 +26,12 @@
     "title": "Deployment Practice",
     "section": "Update to web page",
     "text": "Update to web page\nThis section is added after the first working deployment. I’ll save this, render again, add everything, and commit. I expect the deployment to stop working once I do this.\n\nplot(mtcars$wt, mtcars$mpg)"
+  },
+  {
+    "objectID": "deployment_practice.html#another-addition",
+    "href": "deployment_practice.html#another-addition",
+    "title": "Deployment Practice",
+    "section": "Another addition",
+    "text": "Another addition\nSo the previous added section didn’t break anything, which was a pleasant surprise. This means that adding content to our Quarto file then rendering the new output, adding and then pushing to remote shouldn’t break anything.\nFinal add. If it breaks deployment, next update will be hopefully restoring a working deployment.\n\nmpg_mod &lt;- lm(mpg ~ wt, data = mtcars)\n\npar(mfrow = c(2, 2))\nplot(mpg_mod)\n\n\n\n\n\n\n\npar(mfrow = c(1,1))"
   }
 ]
