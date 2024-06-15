@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "deployment_practice.html",
+    "href": "deployment_practice.html",
+    "title": "Deployment Practice",
+    "section": "",
+    "text": "This is practice for Github pages deployments. The goal is to create a working web page, break the deployment through pushing commits, and subsequently fix it without deleting the repo."
+  },
+  {
+    "objectID": "deployment_practice.html#intro",
+    "href": "deployment_practice.html#intro",
+    "title": "Deployment Practice",
+    "section": "",
+    "text": "This is practice for Github pages deployments. The goal is to create a working web page, break the deployment through pushing commits, and subsequently fix it without deleting the repo."
+  },
+  {
+    "objectID": "deployment_practice.html#working-version",
+    "href": "deployment_practice.html#working-version",
+    "title": "Deployment Practice",
+    "section": "Working version",
+    "text": "Working version\nThis is some text. Below is code that works.\nThis is a good stopping point. I’ll add and commit this.\n\nplot(faithful)"
+  }
+]
