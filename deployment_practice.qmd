@@ -10,11 +10,20 @@ This is practice for Github pages deployments. The goal is to create a working w
 
 ## Working version
 
+### Original push
 This is some text. Below is code that works.
 
 This is a good stopping point. I'll add and commit this. 
 
 ```{r}
 plot(faithful)
+```
+
+## Update to web page
+
+This section is added after the first working deployment. I'll save this, render again, add everything, and commit. I expect the deployment to stop working once I do this.
+
+```{r}
+plot(mtcars$wt, mtcars$mpg)
 ```
 

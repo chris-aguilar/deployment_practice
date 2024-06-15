@@ -18,6 +18,13 @@
     "href": "deployment_practice.html#working-version",
     "title": "Deployment Practice",
     "section": "Working version",
-    "text": "Working version\nThis is some text. Below is code that works.\nThis is a good stopping point. I’ll add and commit this.\n\nplot(faithful)"
+    "text": "Working version\n\nOriginal push\nThis is some text. Below is code that works.\nThis is a good stopping point. I’ll add and commit this.\n\nplot(faithful)"
+  },
+  {
+    "objectID": "deployment_practice.html#update-to-web-page",
+    "href": "deployment_practice.html#update-to-web-page",
+    "title": "Deployment Practice",
+    "section": "Update to web page",
+    "text": "Update to web page\nThis section is added after the first working deployment. I’ll save this, render again, add everything, and commit. I expect the deployment to stop working once I do this.\n\nplot(mtcars$wt, mtcars$mpg)"
   }
 ]
