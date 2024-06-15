@@ -1,0 +1,20 @@
+---
+title: "Deployment Practice"
+format: html
+editor: visual
+---
+
+## Intro
+
+This is practice for Github pages deployments. The goal is to create a working web page, break the deployment through pushing commits, and subsequently fix it without deleting the repo.
+
+## Working version
+
+This is some text. Below is code that works.
+
+This is a good stopping point. I'll add and commit this. 
+
+```{r}
+plot(faithful)
+```
+
